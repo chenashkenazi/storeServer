@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Chen Ashkenazi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ioredis": "^4.27.9",
+    "mongoose": "^6.0.3",
+    "morgan": "^1.10.0",
+    "redis": "^3.1.2",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
